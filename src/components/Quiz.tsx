@@ -46,7 +46,6 @@ const Quiz = ({ onCorrectAnswers, correctAnswers }: QuizProps) => {
       }, 2000);
     }
   };
-  console.log(answer);
   if (!question) {
     return <Modal isOpen={true} title={["loading..."]} bgColor="grey" />;
   }
