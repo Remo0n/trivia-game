@@ -1,0 +1,20 @@
+.modal {
+  display: flex;
+  width: 44%;
+  margin: auto;
+  margin-top: 275px;
+  background: red;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 28%;
+  z-index: 9;
+}
+
+.modal h3 span {
+  margin-right: 10px;
+}
